@@ -58,7 +58,6 @@ text
 
 ---
 
-## ▶️ Running Locally
 
 Clone the repository:
 
