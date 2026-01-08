@@ -44,20 +44,6 @@ This is my personal portfolio website showcasing my experience, projects, and te
 
 ---
 
-## 📂 Project Structure
-
-text
-├── public/
-│   └── resume.pdf        # Downloadable resume
-├── components/           # Reusable UI components
-├── sections/             # Page sections (Hero, Projects, Experience, etc.)
-├── app/pages/            # Application routing
-├── styles/               # Global styles
-└── README.md
-```
-
----
-
 
 Clone the repository:
 
