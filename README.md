@@ -82,10 +82,12 @@ http://localhost:3000
 
 ## 📫 Contact
 
-If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out via LinkedIn or GitHub.
-LinkedIn  - https://www.linkedin.com/in/mishraprajjwal/
-Github    - https://github.com/Prajjwal54281
-Portfolio - https://prajjwal-sde.vercel.app/
+If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out:
+
+LinkedIn: https://www.linkedin.com/in/mishraprajjwal/  
+GitHub: https://github.com/Prajjwal54281  
+Portfolio: https://prajjwal-sde.vercel.app/
+
 ---
 
 **Built with attention to detail and real-world engineering practices.**
