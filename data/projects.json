@@ -1,0 +1,128 @@
+{
+  "projects": [
+    {
+      "id": "speech-disorder-detection",
+      "name": "AI-Powered Speech Disorder Detection System",
+      "tagline": "Early Detection System for Pediatric Speech Disorders",
+      "description": "Built an ML-driven speech analysis system for early detection of pediatric speech disorders, achieving 85% accuracy in identifying cases requiring SLP intervention.",
+      "problem": "Early detection of speech disorders in children is critical for timely intervention, but traditional methods rely heavily on manual screening and expert availability.",
+      "solution": "Developed an AI-powered system using advanced machine learning to analyze speech patterns, perform vocal-pattern analysis and demographic inference (age, gender, accent), with strong emphasis on reproducibility and robust validation pipelines.",
+      "technologies": ["Python", "Machine Learning", "Audio Processing", "TensorFlow", "Flask", "Real-time Inference"],
+      "metrics": [
+        { "value": "85%", "label": "Detection Accuracy" },
+        { "value": "Real-time", "label": "Inference Pipeline" },
+        { "value": "Scalable", "label": "Processing" }
+      ],
+      "impact": "Implemented a scalable, real-time inference pipeline in Python to process audio streams, flag at-risk cases, and generate structured outputs for downstream clinical and analytics use. System determines whether a child requires Speech-Language Pathologist (SLP) attention with high accuracy.",
+      "architecture": "Audio input → Preprocessing pipeline → Speech model analysis (vocal patterns, demographics) → Real-time inference engine → Risk assessment → Structured output for clinical use",
+      "lessons": "Developed robust validation pipelines ensuring model reproducibility and reliability for clinical applications. Learned to balance accuracy with real-time performance requirements.",
+      "githubUrl": "https://github.com/Prajjwal54281",
+      "liveUrl": "https://autorsr.xlabub.com/home"
+    },
+    {
+      "id": "webautodash",
+      "name": "WebAutoDash - AI Web Automation",
+      "tagline": "Advanced AI Tool for Web Automation and Data Extraction",
+      "description": "Advanced AI tool for web automation and data extraction using Playwright, LangChain, and RAG technology. Automates complex web workflows with intelligent decision-making capabilities.",
+      "problem": "Manual web scraping and automation tasks are time-consuming and brittle, requiring constant maintenance when websites change their structure.",
+      "solution": "Built an intelligent web automation system leveraging AI agents with RAG (Retrieval-Augmented Generation) technology to understand and adapt to web page structures dynamically, making automation more robust and maintainable.",
+      "technologies": ["Python", "Playwright", "LangChain", "RAG", "AI Agents", "Web Scraping"],
+      "metrics": [
+        { "value": "Intelligent", "label": "Decision Making" },
+        { "value": "Adaptive", "label": "Web Parsing" },
+        { "value": "Automated", "label": "Complex Workflows" }
+      ],
+      "impact": "Enabled automated data extraction from complex web applications with minimal configuration. AI agents can understand context and adapt to changes in website structure, reducing maintenance overhead significantly.",
+      "architecture": "Web target → Playwright browser automation → LangChain orchestration → RAG-enhanced understanding → AI agent decision making → Data extraction & workflow execution",
+      "lessons": "Learned to combine traditional browser automation with modern AI techniques to create more resilient and intelligent automation systems. RAG technology enables better context understanding for complex web interactions.",
+      "githubUrl": "https://github.com/Prajjwal54281",
+      "liveUrl": ""
+    },
+    {
+      "id": "kinesis-fleet",
+      "name": "KinesisFleet Streaming Analytics",
+      "tagline": "Real-time Telemetry Dashboard for 10,000 Vehicles",
+      "description": "Built a real-time dashboard to track up to 10,000 vehicles simultaneously with low-latency telemetry updates using AWS Kinesis, Apache Druid, Redis, and S3/Glacier archival.",
+      "problem": "Fleet management systems needed real-time insights into vehicle performance, location, and diagnostics to enable proactive maintenance and operational efficiency.",
+      "solution": "Architected a high-throughput streaming data pipeline using AWS Kinesis for ingestion, Druid for fast analytical queries, Redis for caching, and automated S3/Glacier archival for historical data.",
+      "technologies": ["React", "Redis", "Python", "Flask", "AWS S3", "Apache Druid", "AWS Kinesis", "PostgreSQL"],
+      "metrics": [
+        { "value": "10,000", "label": "Concurrent Vehicles" },
+        { "value": "<500ms", "label": "Query Latency" },
+        { "value": "90+ days", "label": "Data Archived" }
+      ],
+      "impact": "Implemented cron-based sync between Redis and PostgreSQL, improving data consistency and query speed. Used Kinesis + Druid for high-throughput ingestion and fast analytical queries.",
+      "architecture": "Vehicle sensors → Kinesis Data Streams → Druid ingestion → Redis cache layer → PostgreSQL sync (cron) → S3/Glacier archival → React dashboard",
+      "lessons": "Learned to balance real-time performance with cost-effective long-term storage; implemented efficient caching strategies for frequently accessed metrics.",
+      "githubUrl": "https://github.com/Prajjwal54281",
+      "liveUrl": ""
+    },
+    {
+      "id": "proctorai",
+      "name": "ProctorAI",
+      "tagline": "Scalable Online Proctoring Platform for 1,000+ Students",
+      "description": "Developed a scalable proctoring platform performing face/eye tracking, head movement detection, mobile device detection, and tab/voice monitoring for 1,000+ students with real-time alerts.",
+      "problem": "Online examinations lacked effective monitoring tools to ensure academic integrity at scale, requiring expensive human proctoring.",
+      "solution": "Built a comprehensive AI-powered proctoring system using deep learning for face tracking, eye movement analysis, head pose estimation, mobile device detection, and audio monitoring.",
+      "technologies": ["Deep Learning", "Flask", "React", "SQL", "OpenCV", "TensorFlow", "WebRTC", "Redis"],
+      "metrics": [
+        { "value": "1,000+", "label": "Students Monitored" },
+        { "value": "94%", "label": "Detection Accuracy" },
+        { "value": "Published", "label": "Research Paper" }
+      ],
+      "impact": "Built Flask APIs and React frontend for real-time alerts and exam monitoring with optimized inference pipelines. Published research paper 'Proctoring System using DL Techniques' at AIRHS 22 conference.",
+      "architecture": "WebRTC video stream → Face detection & tracking → Multi-model analysis (gaze, pose, phone detection) → Redis event queue → Alert aggregation → Admin dashboard",
+      "lessons": "Optimized deep learning inference pipelines for real-time performance; implemented robust alert systems to minimize false positives while maintaining high security.",
+      "githubUrl": "https://github.com/Prajjwal54281",
+      "liveUrl": ""
+    },
+    {
+      "id": "platform-engineering-uhg",
+      "name": "Real-time Provider Directory Platform",
+      "tagline": "HIPAA-Compliant Microservices Serving Millions Daily",
+      "description": "Engineered backend microservices in Java and Python to modernize UnitedHealth Group's real-time provider directory platform, improving response times and data accessibility for millions of daily users.",
+      "problem": "Legacy monolithic architecture couldn't scale to handle increasing user traffic and regulatory compliance requirements for healthcare provider data.",
+      "solution": "Architected event-driven microservices using Kafka streaming, AWS cloud services, and Kubernetes orchestration with comprehensive ELK Stack monitoring.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Python",
+        "Kafka",
+        "Kubernetes",
+        "AWS",
+        "ELK Stack",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "metrics": [
+        { "value": "100K+", "label": "Events/Second" },
+        { "value": "30%", "label": "Latency Reduction" },
+        { "value": "70%", "label": "Faster Debugging" }
+      ],
+      "impact": "Built centralized monitoring using ELK Stack, reducing debugging time by 70%. Designed scalable Kafka/Kubernetes streaming workflows, cutting data update latency by 30% and improving throughput by 25%.",
+      "architecture": "Provider data sources → Kafka topics → Spring Boot microservices → PostgreSQL/MongoDB → ELK monitoring → Real-time API layer → Frontend applications",
+      "lessons": "Mastered HIPAA-compliant architecture patterns; implemented factory, repository, and event-driven design patterns that improved service scalability by 35%.",
+      "githubUrl": "",
+      "liveUrl": ""
+    },
+    {
+      "id": "risk-assessment-tool",
+      "name": "Vendor Risk Assessment Platform",
+      "tagline": "Full-Stack Tool Reducing Manual Auditing by 70%",
+      "description": "Built a full-stack internal risk assessment tool at KPMG using Python, Flask, React, and MongoDB to automate vendor-compliance workflows.",
+      "problem": "Manual vendor risk assessments were time-consuming and error-prone, creating bottlenecks in the compliance review process.",
+      "solution": "Developed an automated assessment platform with secure REST APIs, optimized MongoDB operations, and an intuitive React interface for compliance teams.",
+      "technologies": ["Python", "Flask", "React", "MongoDB", "REST APIs", "JWT Authentication"],
+      "metrics": [
+        { "value": "70%", "label": "Time Saved" },
+        { "value": "45%", "label": "Throughput Increase" },
+        { "value": "100%", "label": "Compliance Coverage" }
+      ],
+      "impact": "Integrated secure REST APIs with frontend components and optimized MongoDB data operations for scalability. Reduced manual auditing time by 70%, improving assessment throughput by 45% per quarter.",
+      "architecture": "React frontend → Flask REST API → MongoDB storage → JWT authentication → Automated compliance scoring → PDF report generation",
+      "lessons": "Learned to design secure authentication flows and optimize NoSQL queries for document-heavy workloads.",
+      "githubUrl": "https://github.com/Prajjwal54281",
+      "liveUrl": ""
+    }
+  ]
+}
